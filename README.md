@@ -8,7 +8,7 @@ When comparing 2 series of strings, we calculate a "score" of the comparison. Th
 There are four signs for similarity of letters. If both letters are the same they are marked as "$". If both letters are not the same but belong to the first group of strings, then they are marked as "%". If they do not belong to the first group of strings but belong to the second group of strings then they are marked as "#". If they dont belong to any group then they are marked as space.
 For a series of sequence letters we will define the Mutant Sequence to be marked with MS (k) as the series of letters obtained by adding hyphen after the k-place in a seuqence when k = 1, 2 ...
 
-For a given strings Seq1, Seq2 where Seq2 is shorter, we have to find the offset and mutation level for which the alignment score will be maximum.
+The task: for a given strings Seq1, Seq2 where Seq2 is shorter, we have to find the offset and mutation level for which the alignment score will be maximum.
 Parallel version should work faster than serial version on **one computer.** (if it was for two computers, then implementation was different. we consider here one GPU and one CPU as our resources).
 
 ### The program
